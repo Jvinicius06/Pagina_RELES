@@ -23,7 +23,8 @@ void setup() {
 
     LittleFS.begin();
 
-    wifiMulti.addAP("AP23 2.4", "thajo100320");
+    wifiMulti.addAP("Automacao", "10203040");
+    // wifiMulti.addAP("AP23 2.4", "thajo100320");
     wifiMulti.addAP("Acasa211", "denise40");
 
     if (wifiMulti.run() != WL_CONNECTED) {
